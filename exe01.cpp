@@ -4,14 +4,14 @@ using namespace std;
 
 int main(){
 	int num, quadrado;
-	setlocale(LC_ALL, "pt");
-	cout<<"DIGITE UM NÚMERO QUALQUER: ";
+	setlocale(LC_ALL, "portuguese");
+	cout<<"DIGITE UM NÃšMERO QUALQUER: ";
 	cin>>num;
 	quadrado = num * num;
 	if(quadrado >= 25){
-		cout<<num<<" É MAIOR QUE "<<quadrado;
+		cout<<num<<" Ã‰ MAIOR QUE "<<quadrado;
 	}else{
-		cout<<"\n"<<quadrado<<" É MENOR QUE "<<quadrado;
+		cout<<"\n"<<quadrado<<" Ã‰ MENOR QUE "<<quadrado;
 	}
 }
 
